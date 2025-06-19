@@ -1,7 +1,7 @@
 # long-road-ahead
 Learning how to code in Python, a long road ahead to becoming a bioinformatician 
 
-File description 
+**File descriptions**:  
 
 codon.py -> converts ACTG nucleotides into ACUG RNA codons 
 
