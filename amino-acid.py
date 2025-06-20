@@ -9,15 +9,15 @@ def amino_converter(sequence):
         list (each string is an amino acid)
     """
     codon_table = {
-    "AAA": "Lys","AAC": "Asn","AAG": "Lys","AAU": "Asn","ACA": "Thr","ACC": "Thr","ACG": "Thr","ACU": "Thr",
-    "AGA": "Arg","AGC": "Ser","AGG": "Arg","AGU": "Ser","AUA": "Ile","AUC": "Ile","AUG": "Met","AUU": "Ile",
-    "CAA": "Gln","CAC": "His","CAG": "Gln","CAU": "His","CCA": "Pro","CCC": "Pro","CCG": "Pro","CCU": "Pro",
-    "CGA": "Arg","CGC": "Arg","CGG": "Arg","CGU": "Arg","CUA": "Leu","CUC": "Leu","CUG": "Leu","CUU": "Leu",
-    "GAA": "Glu","GAC": "Asp","GAG": "Glu","GAU": "Asp","GCA": "Ala","GCC": "Ala","GCG": "Ala","GCU": "Ala",
-    "GGA": "Gly","GGC": "Gly","GGG": "Gly","GGU": "Gly","GUA": "Val","GUC": "Val","GUG": "Val","GUU": "Val",
-    "UAA": "Stop","UAC":"Tyr","UAG": "Stop","UAU":"Tyr","UCA": "Ser","UCC": "Ser","UCG": "Ser","UCU": "Ser",
-    "UGA": "Stop","UGC":"Cys","UGG": "Trp","UGU": "Cys","UUA": "Leu","UUC": "Phe","UUG": "Leu","UUU": "Phe"
-}
+        "AAA": "K", "AAC": "N", "AAG": "K", "AAU": "N", "ACA": "T", "ACC": "T", "ACG": "T", "ACU": "T",
+        "AGA": "R", "AGC": "S", "AGG": "R", "AGU": "S", "AUA": "I", "AUC": "I", "AUG": "M", "AUU": "I",
+        "CAA": "Q", "CAC": "H", "CAG": "Q", "CAU": "H", "CCA": "P", "CCC": "P", "CCG": "P", "CCU": "P",
+        "CGA": "R", "CGC": "R", "CGG": "R", "CGU": "R", "CUA": "L", "CUC": "L", "CUG": "L", "CUU": "L",
+        "GAA": "E", "GAC": "D", "GAG": "E", "GAU": "D", "GCA": "A", "GCC": "A", "GCG": "A", "GCU": "A",
+        "GGA": "G", "GGC": "G", "GGG": "G", "GGU": "G", "GUA": "V", "GUC": "V", "GUG": "V", "GUU": "V",
+        "UAA": "*", "UAC": "Y", "UAG": "*", "UAU": "Y", "UCA": "S", "UCC": "S", "UCG": "S", "UCU": "S",
+        "UGA": "*", "UGC": "C", "UGG": "W", "UGU": "C", "UUA": "L", "UUC": "F", "UUG": "L", "UUU": "F"
+    }
     
     amino_acids = []
     for codon in sequence:

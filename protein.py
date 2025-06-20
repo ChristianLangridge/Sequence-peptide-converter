@@ -20,5 +20,5 @@ def get_alphafold_prediction(protein_sequence):
         print("Error querying AlphaFold API.")
 
 # Example usage
-protein_seq = "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN"  # Replace with your sequence
+protein_seq = "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN"  # test sequence with Human Insulin Uniprot
 get_alphafold_prediction(protein_seq)
