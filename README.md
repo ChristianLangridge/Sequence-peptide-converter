@@ -1,4 +1,4 @@
-# long-road-ahead
+# Personal projects
 Learning how to code in Python, a long road ahead to becoming a bioinformatician 
 
 **File descriptions**:  
