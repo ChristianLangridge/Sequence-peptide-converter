@@ -7,4 +7,7 @@ codon.py -> converts ACTG nucleotides into ACUG RNA codons
 
 amino-acid.py -> converts ACUG RNA codons into amino acids 
 
-nucleotide to amino-acid.py -> combines condon.py and amino-acid.py to directly get amino acids from nucleotides
+protein.py -> converts amino acids into protein with AlphaFold API 
+
+full.decoder.py -> combines all steps into one script
+
