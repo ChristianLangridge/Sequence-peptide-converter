@@ -1,5 +1,5 @@
-# Personal projects
-Learning how to code in Python, a long road ahead to becoming a bioinformatician 
+# Personal project
+A short, educational bioinformatics project while I learn how to code in python. 
 
 **File descriptions**:  
 
